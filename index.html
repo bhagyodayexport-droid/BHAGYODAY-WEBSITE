@@ -1,0 +1,2687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhagyoday Roof Industries — Industrial Roofing Manufacturer Since 1990</title>
+<meta name="description" content="Manufacturer and supplier of Color Coated Sheets, PUF Panels, Polycarbonate Sheets, UPVC Gutters, and industrial roofing solutions. Since 1990. 10,000+ Projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --red: #B91C1C;
+    --red-dark: #991B1B;
+    --red-light: #FEF2F2;
+    --dark: #1A1A1A;
+    --gray-700: #374151;
+    --gray-500: #6B7280;
+    --gray-300: #D1D5DB;
+    --gray-100: #F3F4F6;
+    --bg: #F9F9F9;
+    --white: #FFFFFF;
+    --border: #E4E4E4;
+    --steel: #B08080;
+    --wa: #25D366;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    --shadow: 0 4px 16px rgba(0,0,0,0.08);
+    --shadow-md: 0 8px 32px rgba(0,0,0,0.10);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: var(--white);
+    color: var(--dark);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Manrope', sans-serif;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+
+  a { text-decoration: none; color: inherit; }
+
+  img { max-width: 100%; display: block; }
+
+  /* ─── UTILITY ─── */
+  .container { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
+  .section { padding: 72px 0; }
+  .section--alt { background: var(--bg); }
+  .section--dark { background: var(--dark); color: var(--white); }
+  .section--red { background: var(--red); color: var(--white); }
+
+  .section-label {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .section-label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background: var(--red);
+    flex-shrink: 0;
+  }
+  .section--dark .section-label,
+  .section--red .section-label { color: var(--steel); }
+  .section--dark .section-label::before { background: var(--steel); }
+  .section--red .section-label { color: rgba(255,255,255,0.6); }
+  .section--red .section-label::before { background: rgba(255,255,255,0.4); }
+
+  .section-title { font-size: clamp(24px, 3.5vw, 36px); color: var(--dark); margin-bottom: 14px; }
+  .section--dark .section-title,
+  .section--red .section-title { color: var(--white); }
+
+  .section-sub { font-size: 16px; color: var(--gray-500); max-width: 560px; line-height: 1.7; }
+  .section--dark .section-sub { color: rgba(255,255,255,0.55); }
+  .section--red .section-sub { color: rgba(255,255,255,0.75); }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 26px;
+    border-radius: 4px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: all 0.18s ease;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .btn-primary { background: var(--red); color: var(--white); }
+  .btn-primary:hover { background: var(--red-dark); transform: translateY(-1px); box-shadow: 0 4px 16px rgba(185,28,28,0.35); }
+  .btn-wa { background: var(--wa); color: var(--white); }
+  .btn-wa:hover { background: #1eb955; transform: translateY(-1px); box-shadow: 0 4px 16px rgba(37,211,102,0.35); }
+  .btn-outline { background: transparent; color: var(--red); border: 1.5px solid var(--red); }
+  .btn-outline:hover { background: var(--red); color: var(--white); }
+  .btn-outline-white { background: transparent; color: var(--white); border: 1.5px solid rgba(255,255,255,0.45); }
+  .btn-outline-white:hover { background: rgba(255,255,255,0.12); }
+
+  /* ─── NAV ─── */
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+  }
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    gap: 24px;
+  }
+  .nav-logo {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+  }
+  .nav-logo-main {
+    font-family: 'Manrope', sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    color: var(--dark);
+    letter-spacing: -0.02em;
+  }
+  .nav-logo-main span { color: var(--red); }
+  .nav-logo-sub {
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gray-500);
+    font-weight: 500;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    list-style: none;
+  }
+  .nav-links a {
+    font-size: 13.5px;
+    font-weight: 500;
+    color: var(--gray-700);
+    transition: color 0.15s;
+  }
+  .nav-links a:hover { color: var(--red); }
+  .nav-actions { display: flex; gap: 10px; align-items: center; }
+
+  .nav-mob-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .nav-mob-toggle span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: var(--dark);
+    border-radius: 2px;
+    transition: all 0.2s;
+  }
+
+  .mob-menu {
+    display: none;
+    flex-direction: column;
+    background: var(--white);
+    border-top: 1px solid var(--border);
+    padding: 16px 20px 20px;
+    gap: 4px;
+  }
+  .mob-menu a {
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--dark);
+    border-bottom: 1px solid var(--gray-100);
+  }
+  .mob-menu .mob-btns { display: flex; gap: 10px; margin-top: 14px; }
+  .mob-menu .mob-btns .btn { flex: 1; justify-content: center; font-size: 13px; }
+
+  /* ─── HERO ─── */
+  .hero {
+  background: var(--dark);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+  
+  /* HERO BACKGROUND VIDEO */
+.hero-bg-video{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  z-index:0;
+
+  /* Premium cinematic effect */
+  filter:
+  brightness(0.38)
+  contrast(1.15)
+  saturate(1.1);
+
+  transform:scale(1.03);
+
+  animation:heroZoom 14s ease-in-out infinite alternate;
+}
+
+/* Slow cinematic movement */
+@keyframes heroZoom{
+  0%{
+    transform:scale(1.03);
+  }
+
+  100%{
+    transform:scale(1.08);
+  }
+}
+  }
+  /* Dark overlay on top of background image — keeps text readable */
+ .hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    rgba(0,0,0,0.30) 0%,
+    rgba(0,0,0,0.10) 50%,
+    rgba(0,0,0,0.00) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+  /* Subtle grid lines on top */
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.015) 0px,
+      rgba(255,255,255,0.015) 1px,
+      transparent 1px,
+      transparent 80px
+    );
+    pointer-events: none;
+    z-index: 2;
+  }
+  .hero-left{
+    width:100%;
+    max-width:1180px;
+    margin:auto;
+    padding:120px 20px;
+    position:relative;
+    z-index:3;
+}
+  
+  .hero-since {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(185,28,28,0.12);
+    border: 1px solid rgba(185,28,28,0.3);
+    color: #FCA5A5;
+    font-size: 11.5px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 2px;
+    margin-bottom: 24px;
+  }
+  .hero-since-dot {
+    width: 6px; height: 6px;
+    background: #FCA5A5;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+  .hero h1 {
+    font-size: clamp(30px, 4.2vw, 52px);
+    color: var(--white);
+    line-height: 1.12;
+    margin-bottom: 20px;
+    letter-spacing: -0.025em;
+  }
+  .hero h1 span { color: #FCA5A5; }
+
+  .hero-desc {
+    font-size: 16px;
+    color: rgba(255,255,255,0.55);
+    line-height: 1.75;
+    max-width: 440px;
+    margin-bottom: 36px;
+  }
+  .hero-btns { display: flex; gap: 12px; flex-wrap: wrap; }
+
+  .hero-right {
+    position: relative;
+    height: 100%;
+    min-height: 92vh;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 40px;
+    border-left: 1px solid rgba(255,255,255,0.08);
+    z-index: 3;
+  }
+
+  /* Fake industrial visual */
+  .hero-visual {
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: linear-gradient(135deg, #2a1414 0%, #1a0c0c 50%, #2a1414 100%);
+    border-radius: 3px;
+    border: 1px solid rgba(255,255,255,0.08);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+  /* Simulated roofing sheet pattern */
+  .hero-visual::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+      180deg,
+      rgba(255,255,255,0.07) 0px,
+      rgba(255,255,255,0.07) 3px,
+      transparent 3px,
+      transparent 22px
+    );
+  }
+  .hero-visual-label {
+    position: absolute;
+    bottom: 16px; left: 16px;
+    background: rgba(185,28,28,0.9);
+    color: var(--white);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    border-radius: 2px;
+  }
+  .hero-visual-badge {
+    position: absolute;
+    top: 16px; right: 16px;
+    background: rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.12);
+    color: rgba(255,255,255,0.7);
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 2px;
+  }
+  /* Decorative ribs for roofing visual */
+  .hero-visual-ribs {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+  }
+  .hero-rib {
+    width: 36px;
+    height: 75%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.06), rgba(255,255,255,0.12), rgba(255,255,255,0.06), transparent);
+    border-radius: 2px;
+  }
+
+  .hero-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 3px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+  .hero-stat {
+    background: rgba(255,255,255,0.03);
+    padding: 16px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .hero-stat-val {
+    font-family: 'Manrope', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--white);
+    letter-spacing: -0.02em;
+  }
+  .hero-stat-val span { color: #FCA5A5; }
+  .hero-stat-lbl {
+    font-size: 11px;
+    color: rgba(255,255,255,0.4);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 500;
+  }
+
+  /* ─── TRUST BAR ─── */
+  .trust-bar {
+    background: var(--red);
+    padding: 0;
+    overflow: hidden;
+  }
+  .trust-bar-inner {
+    display: flex;
+    align-items: stretch;
+    divide-x: 1px solid rgba(255,255,255,0.12);
+  }
+  .trust-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 20px 28px;
+    border-right: 1px solid rgba(255,255,255,0.12);
+  }
+  .trust-item:last-child { border-right: none; }
+  .trust-icon {
+    width: 38px; height: 38px;
+    background: rgba(255,255,255,0.12);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 18px;
+  }
+  .trust-text { display: flex; flex-direction: column; gap: 1px; }
+  .trust-val {
+    font-family: 'Manrope', sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    color: var(--white);
+    letter-spacing: -0.01em;
+  }
+  .trust-lbl {
+    font-size: 11px;
+    color: rgba(255,255,255,0.6);
+    font-weight: 500;
+  }
+
+  /* ─── PRODUCTS ─── */
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 48px;
+  }
+  .product-card {
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+}
+  .product-card:hover { background: var(--red-light); }
+  .product-card:hover .product-inquiry { color: var(--red); }
+
+  .product-img {
+    width: 100%;
+    aspect-ratio: 3/2;
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid var(--border);
+  }
+  /* Pattern fills for product images */
+  .product-img[data-type="sheet"]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(180deg, #ede8e8 0, #ede8e8 3px, #f7f4f4 3px, #f7f4f4 20px);
+  }
+  .product-img[data-type="puf"]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #ede0e0 0%, #d4c0c0 100%);
+  }
+  .product-img[data-type="poly"]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(135deg, #f0e8e8 0, #e8d4d4 2px, #faf4f4 2px, #faf4f4 14px);
+  }
+  .product-img[data-type="gutter"]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #e4d0d0 0%, #d4bcbc 100%);
+  }
+  .product-img[data-type="vent"]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-conic-gradient(#e4d4d4 0% 10%, #f4ecec 10% 20%) 50%/24px 24px;
+  }
+  .product-img[data-type="screw"]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(45deg, #ede0e0 0, #ede0e0 2px, #f8f4f4 2px, #f8f4f4 12px);
+  }
+  .product-img[data-type="deck"]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(90deg, #e4d4d4 0, #e4d4d4 2px, #f0eaea 2px, #f0eaea 18px);
+  }
+  .product-img[data-type="upvc"]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(160deg, #ede4e4 0%, #dfc8c8 100%);
+  }
+  .product-img-label {
+    position: relative;
+    z-index: 1;
+    background: rgba(255,255,255,0.85);
+    border: 1px solid var(--border);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--red);
+    padding: 4px 10px;
+    border-radius: 2px;
+  }
+  .product-body { padding: 18px 18px 14px; flex: 1; display: flex; flex-direction: column; }
+  .product-name {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 6px;
+  }
+  .product-desc { font-size: 12.5px; color: var(--gray-500); line-height: 1.6; flex: 1; }
+  .product-inquiry {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--gray-500);
+    margin-top: 14px;
+    transition: color 0.15s;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  .product-inquiry svg { transition: transform 0.15s; }
+  .product-inquiry:hover svg { transform: translateX(3px); }
+
+  .products-view-all {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+  }
+
+  /* ─── WHY CHOOSE US ─── */
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 48px;
+  }
+  .why-card {
+    background: var(--white);
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .why-num {
+    font-family: 'Manrope', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--red);
+    letter-spacing: 0.1em;
+  }
+  .why-icon {
+    font-size: 28px;
+    line-height: 1;
+  }
+  .why-title {
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--dark);
+  }
+  .why-desc { font-size: 13px; color: var(--gray-500); line-height: 1.65; }
+
+  /* ─── FACTORY / OPS ─── */
+  .factory-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+    margin-top: 48px;
+  }
+  .factory-visual-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .factory-img {
+    background: var(--gray-100);
+    border-radius: 3px;
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .factory-img::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+  .factory-img:nth-child(1) { aspect-ratio: 1; }
+  .factory-img:nth-child(1)::before {
+    background: linear-gradient(135deg, #2a1414, #1a0c0c);
+    opacity: 0.85;
+  }
+  .factory-img:nth-child(2) { aspect-ratio: 1; background: #f0eaea; }
+  .factory-img:nth-child(2)::before {
+    background: repeating-linear-gradient(180deg, #d4bcbc 0, #d4bcbc 3px, #e8d4d4 3px, #e8d4d4 20px);
+  }
+  .factory-img:nth-child(3) { grid-column: 1/-1; aspect-ratio: 16/6; }
+  .factory-img:nth-child(3)::before {
+    background: linear-gradient(90deg, #e0cccc, #c8a8a8);
+    background: repeating-linear-gradient(90deg, #c8a8a8 0, #c8a8a8 2px, #e0cccc 2px, #e0cccc 24px);
+  }
+  .factory-img-inner { position: relative; z-index: 1; }
+
+  .factory-text {}
+  .factory-stats-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 32px;
+  }
+  .factory-stat-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--white);
+    padding: 14px 20px;
+    gap: 20px;
+  }
+  .factory-stat-label { font-size: 13px; color: var(--gray-500); }
+  .factory-stat-value {
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--dark);
+    white-space: nowrap;
+  }
+
+  /* ─── PROCESS ─── */
+  .process-steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 48px;
+  }
+  .process-step {
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    background: rgba(255,255,255,0.03);
+    position: relative;
+  }
+  .process-step::after {
+    content: '→';
+    position: absolute;
+    right: -14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255,255,255,0.2);
+    font-size: 20px;
+    z-index: 1;
+  }
+  .process-step:last-child::after { display: none; }
+
+  .process-num {
+    font-family: 'Manrope', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    color: rgba(255,255,255,0.08);
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .process-icon { font-size: 26px; }
+  .process-title {
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--white);
+  }
+  .process-desc { font-size: 12.5px; color: rgba(255,255,255,0.45); line-height: 1.6; }
+
+  /* ─── INDUSTRIES ─── */
+  .industries-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 48px;
+  }
+  .industry-card {
+    background: var(--white);
+    padding: 28px 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    transition: background 0.18s;
+  }
+  .industry-card:hover { background: var(--red-light); }
+  .industry-icon {
+    font-size: 28px;
+    line-height: 1;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .industry-name {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 5px;
+  }
+  .industry-desc { font-size: 12.5px; color: var(--gray-500); line-height: 1.55; }
+
+  /* ─── INQUIRY FORM ─── */
+  .inquiry-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
+    margin-top: 48px;
+  }
+  .inquiry-text {}
+  .inquiry-points {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 24px;
+  }
+  .inquiry-points li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: var(--gray-700);
+  }
+  .inquiry-points li::before {
+    content: '✓';
+    width: 20px; height: 20px;
+    background: var(--red-light);
+    color: var(--red);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .inquiry-form {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 32px;
+    box-shadow: var(--shadow);
+  }
+  .form-title {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 22px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .form-group { display: flex; flex-direction: column; gap: 6px; margin-bottom: 14px; }
+  .form-label { font-size: 12px; font-weight: 600; color: var(--gray-700); letter-spacing: 0.04em; }
+  .form-input, .form-select, .form-textarea {
+    padding: 11px 14px;
+    border: 1.5px solid var(--border);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: var(--dark);
+    background: var(--white);
+    transition: border-color 0.15s;
+    outline: none;
+    width: 100%;
+  }
+  .form-input:focus, .form-select:focus, .form-textarea:focus {
+    border-color: var(--red);
+    box-shadow: 0 0 0 3px rgba(185,28,28,0.08);
+  }
+  .form-textarea { resize: none; height: 80px; }
+  .form-submit { width: 100%; justify-content: center; padding: 14px; font-size: 14px; }
+
+  /* ─── WHATSAPP SECTION ─── */
+  .wa-section {
+    background: #0F0A0A;
+    border-top: 1px solid rgba(37,211,102,0.15);
+    padding: 72px 0;
+    text-align: center;
+  }
+  .wa-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(37,211,102,0.12);
+    border: 1px solid rgba(37,211,102,0.25);
+    color: #4ADE80;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 2px;
+    margin-bottom: 24px;
+  }
+  .wa-section h2 {
+    font-size: clamp(26px, 3.5vw, 40px);
+    color: var(--white);
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+  }
+  .wa-section p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.45);
+    max-width: 480px;
+    margin: 0 auto 36px;
+    line-height: 1.7;
+  }
+  .wa-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--wa);
+    color: var(--white);
+    padding: 17px 38px;
+    border-radius: 4px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    transition: all 0.2s;
+    box-shadow: 0 0 40px rgba(37,211,102,0.2);
+  }
+  .wa-btn:hover {
+    background: #1eb955;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 40px rgba(37,211,102,0.35);
+  }
+  .wa-note { font-size: 12px; color: rgba(255,255,255,0.25); margin-top: 16px; }
+
+  /* ─── FOOTER ─── */
+  footer {
+    background: #0F0A0A;
+    color: rgba(255,255,255,0.45);
+    padding: 56px 0 0;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .footer-brand {}
+  .footer-logo {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 4px;
+    letter-spacing: -0.02em;
+  }
+  .footer-logo span { color: #FCA5A5; }
+  .footer-tagline {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.3);
+    margin-bottom: 16px;
+  }
+  .footer-brand-desc { font-size: 13px; line-height: 1.7; max-width: 280px; }
+  .footer-since {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 11px;
+    background: rgba(185,28,28,0.12);
+    border: 1px solid rgba(185,28,28,0.3);
+    color: #FCA5A5;
+    padding: 4px 12px;
+    border-radius: 2px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+  }
+
+  .footer-col-title {
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.7);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .footer-links { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+  .footer-links a {
+    font-size: 13px;
+    color: rgba(255,255,255,0.4);
+    transition: color 0.15s;
+  }
+  .footer-links a:hover { color: rgba(255,255,255,0.75); }
+
+  .footer-contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+  .footer-contact-icon { font-size: 14px; flex-shrink: 0; margin-top: 2px; opacity: 0.5; }
+
+  .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .footer-bottom-text { font-size: 12px; }
+  .footer-legal { display: flex; gap: 20px; }
+  .footer-legal a { font-size: 12px; color: rgba(255,255,255,0.3); transition: color 0.15s; }
+  .footer-legal a:hover { color: rgba(255,255,255,0.6); }
+
+  /* ─── FLOATING WA ─── */
+  .wa-float {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 200;
+    width: 56px; height: 56px;
+    background: var(--wa);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(37,211,102,0.45);
+    transition: all 0.2s;
+    animation: waFloat 3s ease-in-out infinite;
+  }
+  .wa-float:hover { transform: scale(1.1); }
+  @keyframes waFloat { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-4px)} }
+  .wa-float svg { width: 28px; height: 28px; }
+
+  /* ─── IMAGE PLACEHOLDERS ─── */
+  /* These show when no image is loaded. Once you add real images, these disappear automatically. */
+  .img-placeholder {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: repeating-linear-gradient(
+      45deg,
+      rgba(0,0,0,0.03) 0px,
+      rgba(0,0,0,0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    );
+    pointer-events: none;
+    z-index: 0;
+  }
+  .img-placeholder::before {
+    content: attr(data-label);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.3);
+    letter-spacing: 0.03em;
+  }
+  .img-placeholder::after {
+    content: attr(data-hint);
+    font-family: 'IBM Plex Sans', monospace;
+    font-size: 10px;
+    color: rgba(0,0,0,0.2);
+    background: rgba(255,255,255,0.7);
+    padding: 3px 8px;
+    border-radius: 2px;
+    border: 1px dashed rgba(0,0,0,0.15);
+  }
+  /* Hide placeholder once real image loads */
+  .product-img img + .img-placeholder,
+  .hero-visual img + .img-placeholder,
+  .factory-img img + .img-placeholder { display: none; }
+
+  /* ─── SCROLL REVEAL ─── */
+  .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.5s ease, transform 0.5s ease; }
+  .reveal.visible { opacity: 1; transform: none; }
+
+  /* ─── MOBILE ─── */
+  @media (max-width: 900px) {
+    .hero { grid-template-columns: 1fr; min-height: auto; }
+    .hero-left { padding: 60px 0 40px; }
+    .hero-right { min-height: 340px; padding: 32px 0; border-left: none; border-top: 1px solid rgba(255,255,255,0.06); }
+    .nav-links, .nav-actions { display: none; }
+    .nav-mob-toggle { display: flex; }
+    .mob-menu.open { display: flex; }
+    .trust-bar-inner { flex-wrap: wrap; }
+    .trust-item { flex: 0 0 50%; border-right: none; border-bottom: 1px solid rgba(255,255,255,0.12); }
+    .trust-item:nth-child(odd) { border-right: 1px solid rgba(255,255,255,0.12); }
+    .trust-item:nth-last-child(-n+2) { border-bottom: none; }
+    .products-grid { grid-template-columns: repeat(2, 1fr); }
+    .why-grid { grid-template-columns: repeat(2, 1fr); }
+    .factory-grid { grid-template-columns: 1fr; }
+    .process-steps { grid-template-columns: repeat(2, 1fr); }
+    .process-step::after { display: none; }
+    .industries-grid { grid-template-columns: repeat(2, 1fr); }
+    .inquiry-wrap { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+    .form-row { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 600px) {
+    .section { padding: 52px 0; }
+    .products-grid { grid-template-columns: 1fr 1fr; }
+    .why-grid { grid-template-columns: 1fr; }
+    .process-steps { grid-template-columns: 1fr; }
+    .industries-grid { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr; }
+    .trust-item { flex: 0 0 100%; border-right: none; }
+    .hero-stats { grid-template-columns: 1fr 1fr; }
+    .hero h1 { font-size: 28px; }
+    .hero-btns { flex-direction: column; }
+    .hero-btns .btn { justify-content: center; }
+    .wa-btn { width: 100%; justify-content: center; }
+    /* Mobile: product image bigger, description smaller */
+    .product-img { aspect-ratio: 4/3; }
+    .product-name { font-size: 13px; }
+    .product-desc { font-size: 11px; line-height: 1.5; }
+    .product-body { padding: 12px 12px 10px; }
+    .product-inquiry { font-size: 11px; margin-top: 10px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="nav-logo-main">Bhagyoday <span>Roof</span></span>
+        <span class="nav-logo-sub">Industries — Est. 1990</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#products">Products</a></li>
+        <li><a href="#factory">Manufacturing</a></li>
+        <li><a href="#industries">Industries</a></li>
+        <li><a href="#inquiry">Get Quote</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="tel:+919712912388" class="btn btn-outline" style="padding:9px 16px;font-size:13px;">📞 Call Us</a>
+        <a href="https://wa.me/919712912388" target="_blank" class="btn btn-wa" style="padding:9px 16px;font-size:13px;">WhatsApp</a>
+      </div>
+      <button class="nav-mob-toggle" id="mobToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mob-menu" id="mobMenu">
+    <a href="#products">Products</a>
+    <a href="#factory">Manufacturing</a>
+    <a href="#industries">Industries Served</a>
+    <a href="#inquiry">Get Quotation</a>
+    <div class="mob-btns">
+      <a href="tel:+919712912388" class="btn btn-outline">📞 Call</a>
+      <a href="https://wa.me/919712912388" target="_blank" class="btn btn-wa">WhatsApp</a>
+    </div>
+  </div>
+</nav>
+
+<!-- JSW DISTRIBUTOR BANNER -->
+<div style="background:#B91C1C;padding:10px 0;text-align:center;z-index:99;position:relative;">
+  <div class="container" style="display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;">
+    <span style="display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);color:#fff;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:3px 12px;border-radius:2px;">⭐ Official</span>
+    <span style="color:#fff;font-size:13.5px;font-weight:600;font-family:'Manrope',sans-serif;letter-spacing:0.01em;">We are an JSW/AMNS/TATA/JINDAL AND MANY MORE COLOUR COATED SHEET  Distributor — Material supplied with Certificate &amp; Product Liner Marking</span>
+    <span style="color:rgba(255,255,255,0.6);font-size:11px;">✔ Certified ✔ Genuine ✔ Marked</span>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <!-- ============================================================ -->
+  <!-- HERO BACKGROUND IMAGE — replace "hero-bg.jpg" with your photo -->
+  <!-- Best photo: Factory exterior, roofing installation, warehouse -->
+  <!-- Size: 1600×900px or larger. Will be darkened automatically.  -->
+  <!-- ============================================================ -->
+ <!-- HERO BACKGROUND VIDEO -->
+<video class="hero-bg-video" autoplay muted loop playsinline>
+  <source src="JPG IMAGE/VN20260511_145627.mp4" type="video/mp4">
+</video>
+  <div class="hero-overlay"></div>
+  <div class="hero-left container" style="padding-right:0;">
+    <div class="hero-since">
+      <span class="hero-since-dot"></span>
+      Manufacturing Since 1990
+    </div>
+    <h1>High-Quality Roofing<br>Solutions Built for<br><span>Strength & Scale</span></h1>
+    <p class="hero-desc">Color coated sheets, PUF panels, polycarbonate sheets, and industrial roofing solutions. Manufactured with precision for commercial, industrial, and residential projects across India.</p>
+    <div class="hero-btns">
+      <a href="#inquiry" class="btn btn-primary" style="font-size:15px;padding:15px 30px;">Get Instant Quotation</a>
+      <a href="https://wa.me/919712912388" target="_blank" class="btn btn-wa" style="font-size:15px;padding:15px 28px;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp Us
+      </a>
+    </div>
+  </div>
+ 
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="hero-stat-val">10,000<span>+</span></span>
+        <span class="hero-stat-lbl">Projects Completed</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-val">1 Cr<span>+</span></span>
+        <span class="hero-stat-lbl">Sq Ft Roofing Done</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-val">20,000</span>
+        <span class="hero-stat-lbl">Sq Ft Factory</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-val">20<span>+</span></span>
+        <span class="hero-stat-lbl">Skilled Employees</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="container">
+    <div class="trust-bar-inner">
+      <div class="trust-item">
+        <div class="trust-icon">🏭</div>
+        <div class="trust-text">
+          <span class="trust-val">Since 1990</span>
+          <span class="trust-lbl">35 Years in Industry</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">✅</div>
+        <div class="trust-text">
+          <span class="trust-val">10,000+ Projects</span>
+          <span class="trust-lbl">Completed Successfully</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">📐</div>
+        <div class="trust-text">
+          <span class="trust-val">Custom Sizing</span>
+          <span class="trust-lbl">Built to Specification</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">🚚</div>
+        <div class="trust-text">
+          <span class="trust-val">Pan-India Supply</span>
+          <span class="trust-lbl">Fast Dispatch</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PRODUCTS -->
+<section class="section" id="products">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">Product Range</div>
+      <h2 class="section-title">Industrial Roofing Products</h2>
+      <p class="section-sub">Manufactured for commercial, industrial, and residential applications. All products available in custom sizes and specifications.</p>
+    </div>
+    <div class="products-grid reveal">
+      <!-- Card 1 -->
+      <div class="product-card">
+        <!-- IMAGE SLOT: replace "product-color-coated.jpg" with your product photo (600×400px) -->
+        <div class="product-img" data-type="sheet">
+          <img src="JPG IMAGE/COLOUR COATED.jpg" alt="Color Coated Sheets"
+               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"
+               onerror="this.style.display='none'">
+          <div class="img-placeholder" data-label="📸" data-hint="product-color-coated.jpg"></div>
+          <span class="product-img-label">Roofing</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Color Coated Roofing Sheets</div>
+          <div class="product-desc">JSW & AM/NS branded. High-strength galvanized steel with factory-applied color coating for long-term weather protection.</div>
+          <button class="product-inquiry" onclick="openWhatsApp('Color Coated Roofing Sheets')">
+            Quick Inquiry <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="product-card">
+        <!-- IMAGE SLOT: replace "product-upvc-sheets.jpg" with your product photo (600×400px) -->
+        <div class="product-img" data-type="upvc">
+          <img src="JPG IMAGE/LESSO UPVC.jpg" alt="LESSO UPVC Sheets"
+               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"
+               onerror="this.style.display='none'">
+          <div class="img-placeholder" data-label="📸" data-hint="product-upvc-sheets.jpg"></div>
+          <span class="product-img-label">UPVC</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name"> PVC spanish tile</div>
+          <div class="product-desc">Lightweight, durable UPVC roofing sheets with excellent UV resistance, chemical resistance, and thermal insulation.</div>
+          <button class="product-inquiry" onclick="openWhatsApp('LESSO UPVC Sheets')">
+            Quick Inquiry <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="product-card">
+        <!-- IMAGE SLOT: replace "product-polycarbonate.jpg" with your product photo (600×400px) -->
+        <div class="product-img" data-type="poly">
+          <img src="JPG IMAGE/MULTIWALL PC.jpg" alt="Polycarbonate Sheets"
+               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"
+               onerror="this.style.display='none'">
+          <div class="img-placeholder" data-label="📸" data-hint="product-polycarbonate.jpg"></div>
+          <span class="product-img-label">Polycarbonate</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Polycarbonate Multiwall Sheets</div>
+          <div class="product-desc">Multi-layer polycarbonate sheets for skylights and industrial roofing. High light transmission with UV protection layer.</div>
+          <button class="product-inquiry" onclick="openWhatsApp('Polycarbonate Multiwall Sheets')">
+            Quick Inquiry <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="product-card">
+        <!-- IMAGE SLOT: replace "product-puf-panels.jpg" with your product photo (600×400px) -->
+        <div class="product-img" data-type="puf">
+          <img src="JPG IMAGE/PUFF PANEL.jpg" alt="PUF Insulated Panels"
+               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"
+               onerror="this.style.display='none'">
+          <div class="img-placeholder" data-label="📸" data-hint="product-puf-panels.jpg"></div>
+          <span class="product-img-label">PUF</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">PUF Insulated Panels</div>
+          <div class="product-desc">Polyurethane foam core sandwich panels offering superior thermal insulation for cold storage and industrial buildings.</div>
+          <button class="product-inquiry" onclick="openWhatsApp('PUF Insulated Panels')">
+            Quick Inquiry <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="product-card">
+        <!-- IMAGE SLOT: replace "product-ventilators.jpg" with your product photo (600×400px) -->
+        <div class="product-img" data-type="vent">
+          <img src="JPG IMAGE/AIR TURBO.jpg" alt="Aluminium Roof Ventilators"
+               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"
+               onerror="this.style.display='none'">
+          <div class="img-placeholder" data-label="📸" data-hint="product-ventilators.jpg"></div>
+          <span class="product-img-label">Ventilation</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Aluminium Roof Ventilators</div>
+          <div class="product-desc">Turbine ventilators for industrial rooftops. Wind-driven, maintenance-free operation with high air extraction capacity.</div>
+          <button class="product-inquiry" onclick="openWhatsApp('Aluminium Roof Ventilators')">
+            Quick Inquiry <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+      <!-- Card 6 -->
+      <div class="product-card">
+        <!-- IMAGE SLOT: replace "product-upvc-gutters.jpg" with your product photo (600×400px) -->
+        <div class="product-img" data-type="gutter">
+          <img src="JPG IMAGE/UPVC GUTTER.jpg" alt="UPVC Gutter Systems"
+               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"
+               onerror="this.style.display='none'">
+          <div class="img-placeholder" data-label="📸" data-hint="product-upvc-gutters.jpg"></div>
+          <span class="product-img-label">Drainage</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">UPVC/FRP/GI Gutter Systems</div>
+          <div class="product-desc">Complete roof drainage systems including gutters, downpipes, and fittings. Rust-proof and UV-stabilized for outdoor use.</div>
+          <button class="product-inquiry" onclick="openWhatsApp('UPVC Gutter Systems')">
+            Quick Inquiry <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+      <!-- Card 7 -->
+      <div class="product-card">
+        <!-- IMAGE SLOT: replace "product-deck-sheets.jpg" with your product photo (600×400px) -->
+        <div class="product-img" data-type="deck">
+          <img src="JPG IMAGE/DECK SHEET.jpg" alt="Deck Sheets"
+               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"
+               onerror="this.style.display='none'">
+          <div class="img-placeholder" data-label="📸" data-hint="product-deck-sheets.jpg"></div>
+          <span class="product-img-label">Structural</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Deck Sheets</div>
+          <div class="product-desc">Profiled steel deck sheets for composite floor and roof deck construction. High load-bearing capacity and easy installation.</div>
+          <button class="product-inquiry" onclick="openWhatsApp('Deck Sheets')">
+            Quick Inquiry <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+      <!-- Card 8 -->
+      <div class="product-card">
+        <!-- IMAGE SLOT: replace "product-screws.jpg" with your product photo (600×400px) -->
+        <div class="product-img" data-type="screw">
+          <img src="JPG IMAGE/SCREW IMAGE (1).png" alt="Self Drilling Screws"
+               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"
+               onerror="this.style.display='none'">
+          <div class="img-placeholder" data-label="📸" data-hint="product-screws.jpg"></div>
+          <span class="product-img-label">Fixings</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Self Drilling Screws</div>
+          <div class="product-desc">Stainless and galvanized self-drilling fasteners for roofing and cladding applications. No pre-drilling required.</div>
+          <button class="product-inquiry" onclick="openWhatsApp('Self Drilling Screws')">
+            Quick Inquiry <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="products-view-all reveal">
+      <a href="#inquiry" class="btn btn-outline" style="font-size:14px;padding:13px 28px;">View Full Product Catalog →</a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">Why Bhagyoday</div>
+      <h2 class="section-title">What Sets Us Apart</h2>
+      <p class="section-sub">Operational strength built over 35 years of manufacturing and supply experience.</p>
+    </div>
+    <div class="why-grid reveal">
+      <div class="why-card">
+        <span class="why-num">01</span>
+        <div class="why-icon">🎯</div>
+        <div class="why-title">Precision Manufacturing</div>
+        <div class="why-desc">Accurate dimensions and quality-controlled production. Every product is checked against specification before dispatch.</div>
+      </div>
+      <div class="why-card">
+        <span class="why-num">02</span>
+        <div class="why-icon">📐</div>
+        <div class="why-title">Customized Sizes</div>
+        <div class="why-desc">Products manufactured exactly to your project requirements — length, width, gauge, and color as per your specifications.</div>
+      </div>
+      <div class="why-card">
+        <span class="why-num">03</span>
+        <div class="why-icon">⚡</div>
+        <div class="why-title">Fast Delivery</div>
+        <div class="why-desc">Efficient production scheduling and dispatch workflow. 20,000 sq ft godown for ready-stock and fast order fulfillment.</div>
+      </div>
+      <div class="why-card">
+        <span class="why-num">04</span>
+        <div class="why-icon">🤝</div>
+        <div class="why-title">Direct Support</div>
+        <div class="why-desc">Speak directly with our team. No middlemen. Real quotations from real manufacturing experts for your project needs.</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ============================================================ -->
+<!-- ROOFY SECTION — Premium Brand Showcase -->
+<!-- ============================================================ -->
+
+<!-- Roofy CSS injected inline -->
+<style>
+/* ── ROOFY VARIABLES ── */
+:root {
+  --roofy-yellow: #F5C500;
+  --roofy-yellow-dark: #D4A900;
+  --roofy-navy: #1B2B5E;
+  --roofy-navy-dark: #111D40;
+  --roofy-navy-light: #243570;
+  --roofy-white: #FFFFFF;
+  --roofy-gray: #F4F5F8;
+}
+
+/* ── TOP ANNOUNCEMENT STRIP ── */
+.roofy-strip {
+  background: var(--roofy-yellow);
+  padding: 12px 0;
+  text-align: center;
+}
+.roofy-strip-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.roofy-strip-badge {
+  background: var(--roofy-navy);
+  color: var(--roofy-yellow);
+  font-family: 'Manrope', sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 2px;
+}
+.roofy-strip-text {
+  font-family: 'Manrope', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--roofy-navy);
+  letter-spacing: 0.01em;
+}
+.roofy-strip-dot {
+  width: 5px; height: 5px;
+  background: var(--roofy-navy);
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+/* ── HERO BANNER ── */
+.roofy-hero {
+  background: var(--roofy-navy);
+  position: relative;
+  overflow: hidden;
+  padding: 72px 0;
+  border-top: 4px solid var(--roofy-yellow);
+}
+.roofy-hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.18;
+  z-index: 0;
+}
+.roofy-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(35, 55, 128, 0) 0%, rgba(41, 66, 149, 0) 60%, rgba(34, 72, 199, 0) 100%);
+  z-index: 1;
+}
+.roofy-hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+.roofy-logo-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.roofy-logo-mark {
+  background: var(--roofy-yellow);
+  color: var(--roofy-navy);
+  font-family: 'Manrope', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  padding: 6px 16px;
+  border-radius: 3px;
+  letter-spacing: -0.01em;
+}
+.roofy-logo-mark span { color: var(--roofy-navy); }
+.roofy-logo-reg {
+  font-size: 10px;
+  color: rgba(255,255,255,0.35);
+  vertical-align: super;
+}
+.roofy-available {
+  font-size: 11px;
+  color: rgba(255,255,255,0.45);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-left: 2px solid var(--roofy-yellow);
+  padding-left: 10px;
+  margin-bottom: 20px;
+  display: block;
+}
+.roofy-hero h2 {
+  font-size: clamp(26px, 3.8vw, 46px);
+  color: var(--roofy-white);
+  line-height: 1.1;
+  margin-bottom: 16px;
+  letter-spacing: -0.025em;
+}
+.roofy-hero h2 span { color: var(--roofy-yellow); }
+.roofy-hero-sub {
+  font-size: 15px;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.75;
+  max-width: 480px;
+  margin-bottom: 32px;
+}
+.roofy-hero-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+.roofy-pill {
+  background: rgba(245,197,0,0.12);
+  border: 1px solid rgba(245,197,0,0.3);
+  color: var(--roofy-yellow);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 14px;
+  border-radius: 2px;
+  letter-spacing: 0.03em;
+}
+.roofy-hero-btns { display: flex; gap: 12px; flex-wrap: wrap; }
+.btn-roofy-primary {
+  background: var(--roofy-yellow);
+  color: var(--roofy-navy);
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 13px 26px;
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.18s;
+  border: none;
+  cursor: pointer;
+}
+.btn-roofy-primary:hover { background: var(--roofy-yellow-dark); transform: translateY(-1px); }
+.btn-roofy-outline {
+  background: transparent;
+  color: var(--roofy-white);
+  border: 1.5px solid rgba(255,255,255,0.3);
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 13px 26px;
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.18s;
+}
+.btn-roofy-outline:hover { border-color: var(--roofy-yellow); color: var(--roofy-yellow); }
+
+/* Hero right — main image */
+.roofy-hero-img-wrap {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 2px solid rgba(245,197,0,0.2);
+}
+.roofy-hero-img-wrap img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  display: block;
+}
+.roofy-img-ph {
+  width: 100%;
+  aspect-ratio: 4/3;
+  background: rgba(255,255,255,0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 2px dashed rgba(245,197,0,0.2);
+  border-radius: 3px;
+}
+.roofy-img-ph-label {
+  font-size: 13px;
+  color: rgba(245,197,0,0.5);
+  font-weight: 600;
+}
+.roofy-img-ph-hint {
+  font-size: 11px;
+  font-family: monospace;
+  color: rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.05);
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.roofy-img-caption {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  background: linear-gradient(0deg, rgba(47, 69, 144, 0.484), transparent);
+  padding: 24px 16px 14px;
+  font-size: 12px;
+  color: rgba(255,255,255,0.6);
+  text-align: center;
+  font-style: italic;
+}
+
+/* ── STATS ROW ── */
+.roofy-stats {
+  background: var(--roofy-yellow);
+  padding: 0;
+}
+.roofy-stats-inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  divide-x: 1px solid rgba(27,43,94,0.15);
+}
+.roofy-stat {
+  padding: 20px 24px;
+  border-right: 1px solid rgba(27,43,94,0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.roofy-stat:last-child { border-right: none; }
+.roofy-stat-val {
+  font-family: 'Manrope', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: var(--roofy-navy);
+  letter-spacing: -0.02em;
+}
+.roofy-stat-lbl {
+  font-size: 11.5px;
+  color: rgba(27,43,94,0.65);
+  font-weight: 600;
+}
+
+/* ── FEATURES SECTION ── */
+.roofy-features {
+  background: var(--roofy-gray);
+  padding: 72px 0;
+}
+.roofy-features-header { margin-bottom: 48px; }
+.roofy-section-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--roofy-navy);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.roofy-section-label::before {
+  content: '';
+  display: inline-block;
+  width: 20px; height: 3px;
+  background: var(--roofy-yellow);
+  flex-shrink: 0;
+}
+.roofy-section-title {
+  font-size: clamp(22px, 3vw, 32px);
+  color: var(--roofy-navy);
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+}
+.roofy-section-sub {
+  font-size: 15px;
+  color: var(--gray-500);
+  max-width: 540px;
+  line-height: 1.7;
+}
+
+.roofy-features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 48px;
+}
+.roofy-feat-card {
+  background: var(--roofy-white);
+  border: 1px solid #E8EAF0;
+  border-radius: 4px;
+  padding: 0;
+  overflow: hidden;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.roofy-feat-card:hover { box-shadow: 0 8px 32px rgba(27,43,94,0.12); transform: translateY(-2px); }
+
+.roofy-feat-img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  display: block;
+}
+.roofy-feat-img-ph {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: linear-gradient(135deg, #e8eaf4, #d4d8ed);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border-bottom: 1px solid #E8EAF0;
+}
+.roofy-feat-img-ph span:first-child { font-size: 28px; }
+.roofy-feat-img-ph-hint {
+  font-size: 10px;
+  font-family: monospace;
+  color: rgba(27,43,94,0.35);
+  background: rgba(27,43,94,0.06);
+  padding: 2px 8px;
+  border-radius: 2px;
+}
+.roofy-feat-body { padding: 20px 20px 22px; }
+.roofy-feat-icon-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.roofy-feat-icon {
+  width: 36px; height: 36px;
+  background: var(--roofy-navy);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+.roofy-feat-num {
+  font-family: 'Manrope', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--roofy-yellow-dark);
+  letter-spacing: 0.1em;
+}
+.roofy-feat-title {
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--roofy-navy);
+  margin-bottom: 8px;
+}
+.roofy-feat-desc {
+  font-size: 13px;
+  color: var(--gray-500);
+  line-height: 1.65;
+}
+.roofy-feat-tag {
+  display: inline-block;
+  margin-top: 12px;
+  background: rgba(245,197,0,0.12);
+  border: 1px solid rgba(245,197,0,0.4);
+  color: #8B6E00;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 2px;
+  letter-spacing: 0.04em;
+}
+
+/* ── COMPARISON TABLE ── */
+.roofy-compare {
+  background: var(--roofy-navy);
+  padding: 72px 0;
+}
+.roofy-compare-header { margin-bottom: 40px; }
+.roofy-compare .roofy-section-label { color: var(--roofy-yellow); }
+.roofy-compare .roofy-section-title { color: var(--roofy-white); }
+.roofy-compare .roofy-section-sub { color: rgba(255,255,255,0.5); }
+.roofy-table-wrap {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.roofy-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.roofy-table th {
+  padding: 16px 20px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.roofy-table th:first-child { color: rgba(255,255,255,0.4); width: 34%; }
+.roofy-table th:nth-child(2) {
+  color: rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.03);
+  text-align: center;
+  width: 33%;
+}
+.roofy-table th:nth-child(3) {
+  background: rgba(245,197,0,0.1);
+  color: var(--roofy-yellow);
+  text-align: center;
+  width: 33%;
+}
+.roofy-table td {
+  padding: 14px 20px;
+  font-size: 13.5px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  vertical-align: middle;
+}
+.roofy-table tr:last-child td { border-bottom: none; }
+.roofy-table td:first-child { color: rgba(255,255,255,0.55); font-weight: 500; }
+.roofy-table td:nth-child(2) {
+  text-align: center;
+  color: rgba(255,255,255,0.35);
+  background: rgba(255,255,255,0.02);
+}
+.roofy-table td:nth-child(3) {
+  text-align: center;
+  background: rgba(245,197,0,0.06);
+  font-weight: 700;
+  color: var(--roofy-yellow);
+}
+.roofy-table tr:hover td { background: rgba(255,255,255,0.03); }
+.roofy-table tr:hover td:nth-child(3) { background: rgba(245,197,0,0.1); }
+.bad { color: rgb(255, 255, 255) !important; }
+.good { color: var(--roofy-yellow) !important; }
+
+/* ── SYSTEM LAYERS ── */
+.roofy-system {
+  background: var(--roofy-white);
+  padding: 72px 0;
+}
+.roofy-system-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  margin-top: 48px;
+}
+.roofy-layers {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.roofy-layer {
+  background: var(--white);
+  padding: 16px 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+.roofy-layer-num {
+  width: 32px; height: 32px;
+  background: var(--roofy-navy);
+  color: var(--roofy-yellow);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Manrope', sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+.roofy-layer-name {
+  font-family: 'Manrope', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--roofy-navy);
+  margin-bottom: 3px;
+}
+.roofy-layer-desc { font-size: 12px; color: var(--gray-500); line-height: 1.55; }
+
+.roofy-system-img-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.roofy-sys-img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+  display: block;
+}
+.roofy-sys-img-ph {
+  width: 100%;
+  aspect-ratio: 4/3;
+  background: linear-gradient(135deg, #e8eaf4, #d4d8ed);
+  border-radius: 3px;
+  border: 2px dashed rgba(27,43,94,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.roofy-sys-img-ph span { font-size: 13px; color: rgba(27,43,94,0.4); font-weight: 600; }
+.roofy-sys-img-ph small { font-size: 10px; font-family: monospace; color: rgba(27,43,94,0.25); background: rgba(27,43,94,0.06); padding: 2px 8px; border-radius: 2px; }
+.roofy-sys-img-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.roofy-sys-img-sm { aspect-ratio: 1; }
+
+/* ── CTA STRIP ── */
+.roofy-cta {
+  background: var(--roofy-yellow);
+  padding: 52px 0;
+}
+.roofy-cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.roofy-cta h3 {
+  font-size: clamp(20px, 2.8vw, 30px);
+  color: var(--roofy-navy);
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+}
+.roofy-cta p {
+  font-size: 14px;
+  color: rgba(27,43,94,0.65);
+  max-width: 480px;
+  line-height: 1.6;
+}
+.roofy-cta-btns { display: flex; gap: 12px; flex-wrap: wrap; flex-shrink: 0; }
+.btn-roofy-navy {
+  background: var(--roofy-navy);
+  color: var(--roofy-white);
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 14px 28px;
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.18s;
+  white-space: nowrap;
+}
+.btn-roofy-navy:hover { background: var(--roofy-navy-dark); transform: translateY(-1px); box-shadow: 0 4px 16px rgba(27,43,94,0.3); }
+.btn-roofy-wa {
+  background: var(--wa);
+  color: var(--white);
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 14px 28px;
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.18s;
+  white-space: nowrap;
+}
+.btn-roofy-wa:hover { background: #1eb955; transform: translateY(-1px); }
+
+/* ── MOBILE ROOFY ── */
+@media (max-width: 900px) {
+  .roofy-hero-grid { grid-template-columns: 1fr; gap: 36px; }
+  .roofy-stats-inner { grid-template-columns: 1fr 1fr; }
+  .roofy-stat { border-right: none; border-bottom: 1px solid rgba(27,43,94,0.12); }
+  .roofy-stat:nth-child(odd) { border-right: 1px solid rgba(27,43,94,0.12); }
+  .roofy-features-grid { grid-template-columns: 1fr 1fr; }
+  .roofy-system-grid { grid-template-columns: 1fr; }
+  .roofy-cta-inner { flex-direction: column; align-items: flex-start; }
+}
+@media (max-width: 600px) {
+  .roofy-features-grid { grid-template-columns: 1fr; }
+  .roofy-stats-inner { grid-template-columns: 1fr 1fr; }
+  .roofy-cta-btns { flex-direction: column; width: 100%; }
+  .btn-roofy-navy, .btn-roofy-wa { justify-content: center; }
+  .roofy-sys-img-row { grid-template-columns: 1fr; }
+  .roofy-table th, .roofy-table td { padding: 11px 12px; font-size: 12px; }
+  .roofy-hero-btns { flex-direction: column; }
+  .btn-roofy-primary, .btn-roofy-outline { justify-content: center; }
+}
+</style>
+
+<!-- ① ANNOUNCEMENT STRIP -->
+<div class="roofy-strip">
+  <div class="container">
+    <div class="roofy-strip-inner">
+      <span class="roofy-strip-badge">New</span>
+      <span class="roofy-strip-text">Now Available at Bhagyoday — ROOFY® Zip-Up Standing Seam Roofing System</span>
+      <span class="roofy-strip-dot"></span>
+      <span class="roofy-strip-text" style="opacity:0.6;">120 Mtr+ Single-Piece · Zero Holes · Zero Leaks</span>
+    </div>
+  </div>
+</div>
+
+<!-- ② HERO BANNER -->
+<section class="roofy-hero" id="roofy">
+  <!-- ============================================================ -->
+  <!-- ROOFY HERO BG — replace "roofy-hero.jpg" with standing seam aerial photo -->
+  <!-- Size: 1600×900px | Use photo from Roofy brochure page 5 or 7 -->
+  <!-- ============================================================ -->
+  <img src="JPG IMAGE/bumbung-industri-tahan-bocor.jpeg" alt="" class="roofy-hero-bg" onerror="this.style.display='none'">
+  <div class="roofy-hero-overlay"></div>
+  <div class="container">
+    <div class="roofy-hero-grid">
+      <!-- LEFT: Text -->
+      <div>
+        <div class="roofy-logo-wrap">
+          <span class="roofy-logo-mark">ROOFY<span style="color:var(--roofy-yellow);">®</span></span>
+        </div>
+        <span class="roofy-available">Now available exclusively at Bhagyoday Roof Industries</span>
+        <h2>One Roof.<br><span>One Sheet.</span><br>Zero Leaks.</h2>
+        <p class="roofy-hero-sub">ROOFY's Zip-Up Standing Seam system produces continuous panels up to 120 metres — robotically crimped with zero screw holes, zero lap joints, and zero leak points. Built for India's toughest conditions.</p>
+        <div class="roofy-hero-pills">
+          <span class="roofy-pill">120 Mtr+ Single Piece</span>
+          <span class="roofy-pill">360° Robotic Seam</span>
+          <span class="roofy-pill">Zero Screw Holes</span>
+          <span class="roofy-pill">Solar Panel Ready</span>
+        </div>
+        <div class="roofy-hero-btns">
+          <a href="https://wa.me/919712912388?text=Hello%2C%20I%20want%20to%20know%20more%20about%20ROOFY%20Zip-Up%20Standing%20Seam%20Roofing." target="_blank" class="btn-roofy-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Enquire on WhatsApp
+          </a>
+          <a href="https://www.theroofy.com" target="_blank" class="btn-roofy-outline">Visit theroofy.com →</a>
+        </div>
+      </div>
+      <!-- RIGHT: Hero image -->
+      <div>
+        <!-- ============================================================ -->
+        <!-- ROOFY MAIN IMAGE — replace "roofy-main.jpg" -->
+        <!-- Use: Standing seam roof close-up or installation photo -->
+        <!-- Size: 800×600px — screenshot from Roofy brochure page 1 or 7 -->
+        <!-- ============================================================ -->
+        <div class="roofy-hero-img-wrap">
+          <img src="JPG IMAGE/ChatGPT Image May 11, 2026, 11_27_04 AM.jpg" alt="ROOFY Standing Seam Roofing" class="roofy-feat-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+          <div class="roofy-img-ph" style="display:none;">
+            <span class="roofy-img-ph-label">📸 Roofy Hero Image</span>
+            <span class="roofy-img-ph-hint">roofy-main.jpg — 800×600px</span>
+          </div>
+          <div class="roofy-img-caption">ROOFY® Zip-Up Standing Seam — 360° Robotically Crimped Panels</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ③ STATS BAR -->
+<div class="roofy-stats">
+  <div class="container">
+    <div class="roofy-stats-inner">
+      <div class="roofy-stat">
+        <span class="roofy-stat-val">120 Mtr+</span>
+        <span class="roofy-stat-lbl">Single-Piece Panel Length</span>
+      </div>
+      <div class="roofy-stat">
+        <span class="roofy-stat-val">360°</span>
+        <span class="roofy-stat-lbl">Robotic Seam Lock</span>
+      </div>
+      <div class="roofy-stat">
+        <span class="roofy-stat-val">Zero</span>
+        <span class="roofy-stat-lbl">Screw Holes in Sheet</span>
+      </div>
+      <div class="roofy-stat">
+        <span class="roofy-stat-val">68 mm</span>
+        <span class="roofy-stat-lbl">High Structural Seam</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ④ 3 FEATURE CARDS WITH IMAGES -->
+<section class="roofy-features">
+  <div class="container">
+    <div class="roofy-features-header reveal">
+      <div class="roofy-section-label">Why ROOFY</div>
+      <h2 class="roofy-section-title">Not Just a Sheet. An Engineered System.</h2>
+      <p class="roofy-section-sub">Three reasons ROOFY outperforms every traditional roofing system in India's harshest conditions.</p>
+    </div>
+    <div class="roofy-features-grid reveal">
+
+      <!-- Card 1: Zero Leak -->
+      <div class="roofy-feat-card">
+        <!-- IMAGE: replace "roofy-installation.jpg" with crimping tool / seam photo -->
+        <!-- Size: 600×338px — from Roofy brochure page 2 (robotic tool photo) -->
+        <img src="JPG IMAGE/no screw.jpg" alt="ROOFY robotic installation" class="roofy-feat-img"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+        <div class="roofy-feat-img-ph" style="display:none;">
+          <span>🔩</span>
+          <span class="roofy-feat-img-ph-hint">roofy-installation.jpg — 600×338px</span>
+        </div>
+        <div class="roofy-feat-body">
+          <div class="roofy-feat-icon-row">
+            <div class="roofy-feat-icon">🚫</div>
+            <span class="roofy-feat-num">FEATURE 01</span>
+          </div>
+          <div class="roofy-feat-title">Zero-Hole. Zero-Leak Architecture.</div>
+          <div class="roofy-feat-desc">No screws drilled through the sheet. No lap joints. No exposed fasteners anywhere on the roof. The robotic Zip-Up tool crimps every panel into a 180°–360° mechanical lock — the roof physically seals itself shut.</div>
+          <span class="roofy-feat-tag">NO HOLES = NO LEAKS. EVER.</span>
+        </div>
+      </div>
+
+      <!-- Card 2: Robotic Precision -->
+      <div class="roofy-feat-card">
+        <!-- IMAGE: replace "roofy-closeup.jpg" with seam detail / cross-section photo -->
+        <!-- Size: 600×338px — from Roofy brochure page 3 (profile diagram) -->
+        <img src="JPG IMAGE/zip up robotic.jpg" alt="ROOFY 360 seam lock" class="roofy-feat-img"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+        <div class="roofy-feat-img-ph" style="display:none;">
+          <span>⚙️</span>
+          <span class="roofy-feat-img-ph-hint">roofy-closeup.jpg — 600×338px</span>
+        </div>
+        <div class="roofy-feat-body">
+          <div class="roofy-feat-icon-row">
+            <div class="roofy-feat-icon">🤖</div>
+            <span class="roofy-feat-num">FEATURE 02</span>
+          </div>
+          <div class="roofy-feat-title">Robotic Precision. Not Human Guesswork.</div>
+          <div class="roofy-feat-desc">Every seam is machine-crimped uniformly from one end of the roof to the other. No weak points, no inconsistent hand-tightening, no rework. On-site roll-forming means panels up to 120 Mtr+ with zero transport damage or mid-span joints.</div>
+          <span class="roofy-feat-tag">360° MACHINE LOCKED SEAM</span>
+        </div>
+      </div>
+
+      <!-- Card 3: Solar Ready -->
+      <div class="roofy-feat-card">
+        <!-- IMAGE: replace "roofy-solar.jpg" with solar panels on standing seam photo -->
+        <!-- Size: 600×338px — from Roofy brochure page 8 -->
+        <img src="JPG IMAGE/solar.jpg" alt="ROOFY solar panel ready roof" class="roofy-feat-img"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+        <div class="roofy-feat-img-ph" style="display:none;">
+          <span>☀️</span>
+          <span class="roofy-feat-img-ph-hint">roofy-solar.jpg — 600×338px</span>
+        </div>
+        <div class="roofy-feat-body">
+          <div class="roofy-feat-icon-row">
+            <div class="roofy-feat-icon">☀️</div>
+            <span class="roofy-feat-num">FEATURE 03</span>
+          </div>
+          <div class="roofy-feat-title">Solar Panel Ready. No Drilling Required.</div>
+          <div class="roofy-feat-desc">Solar mounting brackets clamp directly onto the standing seam — zero drilling, zero roof penetration. Future-proof your building without ever creating a new leak point. ROOFY is built for India's solar revolution.</div>
+          <span class="roofy-feat-tag">CLAMP-ON · DRILL-FREE SOLAR</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ⑤ COMPARISON TABLE -->
+<section class="roofy-compare">
+  <div class="container">
+    <div class="roofy-compare-header reveal">
+      <div class="roofy-section-label">The Difference</div>
+      <h2 class="roofy-section-title">ROOFY vs Traditional Roofing</h2>
+      <p class="roofy-section-sub">Why traditional screw-fixed sheets fail — and how ROOFY eliminates every failure point.</p>
+    </div>
+    <div class="roofy-table-wrap reveal">
+      <table class="roofy-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Traditional Sheets</th>
+            <th>ROOFY® Standing Seam</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Screw holes in sheet</td>
+            <td class="bad">❌ Hundreds of holes</td>
+            <td class="good">✅ Zero holes</td>
+          </tr>
+          <tr>
+            <td>Leak risk</td>
+            <td class="bad">❌ Every screw point</td>
+            <td class="good">✅ Physically sealed shut</td>
+          </tr>
+          <tr>
+            <td>Panel joints / lap joints</td>
+            <td class="bad">❌ Multiple lap joints</td>
+            <td class="good">✅ Single piece up to 120 Mtr+</td>
+          </tr>
+          <tr>
+            <td>Installation method</td>
+            <td class="bad">❌ Manual labour</td>
+            <td class="good">✅ Robotic crimping tool</td>
+          </tr>
+          <tr>
+            <td>Thermal expansion</td>
+            <td class="bad">❌ Buckling & cracking</td>
+            <td class="good">✅ Concealed clips — expands freely</td>
+          </tr>
+          <tr>
+            <td>Wind uplift resistance</td>
+            <td class="bad">❌ Screws pull out</td>
+            <td class="good">✅ Elite — cyclone rated</td>
+          </tr>
+          <tr>
+            <td>Solar panel installation</td>
+            <td class="bad">❌ Drill into sheet</td>
+            <td class="good">✅ Clamp on — no drilling</td>
+          </tr>
+          <tr>
+            <td>Long-term maintenance</td>
+            <td class="bad">❌ Annual re-sealing / repairs</td>
+            <td class="good">✅ Zero resealing needed</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ⑥ SYSTEM LAYERS + IMAGES -->
+<section class="roofy-system">
+  <div class="container">
+    <div class="reveal">
+      <div class="roofy-section-label">Complete System</div>
+      <h2 class="roofy-section-title">Every Layer. Engineered Together.</h2>
+      <p class="roofy-section-sub">ROOFY is not just a sheet — it's a complete 5-layer engineered roofing system providing strength, insulation, ventilation, and 100% leak-free performance.</p>
+    </div>
+    
+  
+<!-- ⑦ ROOFY CTA STRIP -->
+<div class="roofy-cta">
+  <div class="container">
+    <div class="roofy-cta-inner">
+      <div>
+        <h3>Interested in ROOFY for Your Project?</h3>
+        <p>Talk to our team at Bhagyoday about ROOFY availability, specifications, and pricing for your next commercial or industrial roofing project.</p>
+      </div>
+      <div class="roofy-cta-btns">
+        <a href="https://wa.me/919712912388?text=Hello%2C%20I%20want%20a%20quotation%20for%20ROOFY%20Zip-Up%20Standing%20Seam%20Roofing." target="_blank" class="btn-roofy-wa">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp for ROOFY Quote
+        </a>
+        <a href="https://www.theroofy.com" target="_blank" class="btn-roofy-navy">Learn More at theroofy.com →</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ============================================================ -->
+<!-- END ROOFY SECTION -->
+<!-- ============================================================ -->
+
+<!-- FACTORY / MANUFACTURING -->
+<section class="section" id="factory">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">Manufacturing Capability</div>
+      <h2 class="section-title">Built with Industrial-Grade<br>Manufacturing Capability</h2>
+      <p class="section-sub">Our manufacturing process is designed for precision, scalability, and consistent product quality across every order — from small projects to large industrial contracts.</p>
+    </div>
+    <div class="factory-grid reveal">
+      <div class="factory-visual-wrap">
+        <!-- IMAGE SLOT: replace "factory-main.jpg" with your factory/building photo (600×600px) -->
+        <div class="factory-img">
+          <img src="JPG IMAGE/cutting mc.png" alt="Bhagyoday Factory"
+               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"
+               onerror="this.style.display='none'">
+          <div class="img-placeholder" data-label="📸 Factory" data-hint="factory-main.jpg"></div>
+        </div>
+        <!-- IMAGE SLOT: replace "factory-machine.jpg" with machinery/production photo (600×600px) -->
+        <div class="factory-img">
+          <img src="JPG IMAGE/machine.jpg" alt="Manufacturing Machine"
+               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"
+               onerror="this.style.display='none'">
+          <div class="img-placeholder" data-label="📸 Machine" data-hint="factory-machine.jpg"></div>
+        </div>
+        <!-- IMAGE SLOT: replace "factory-godown.jpg" with godown/warehouse photo (1200×450px wide) -->
+        <div class="factory-img">
+          <img src="JPG IMAGE/factory.jpg" alt="Factory Godown"
+               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"
+               onerror="this.style.display='none'">
+          <div class="img-placeholder" data-label="📸 Godown / Warehouse" data-hint="factory-godown.jpg"></div>
+        </div>
+      </div>
+      <div class="factory-text">
+        <div class="section-label">Operations</div>
+        <h3 style="font-size:22px;color:var(--dark);margin-bottom:14px;">Operational Infrastructure<br>Ready for Scale</h3>
+        <p style="font-size:14px;color:var(--gray-500);line-height:1.75;margin-bottom:8px;">From raw material intake to finished product dispatch, our facility is built for consistent output and quality assurance at every stage of production.</p>
+        <p style="font-size:14px;color:var(--gray-500);line-height:1.75;">Stocking JSW and AM/NS branded materials ensures every product meets national quality standards.</p>
+        <div class="factory-stats-list">
+          <div class="factory-stat-row">
+            <span class="factory-stat-label">Factory & Godown Area</span>
+            <span class="factory-stat-value">20,000 Sq Ft</span>
+          </div>
+          <div class="factory-stat-row">
+            <span class="factory-stat-label">Skilled Workforce</span>
+            <span class="factory-stat-value">20+ Employees</span>
+          </div>
+          <div class="factory-stat-row">
+            <span class="factory-stat-label">Total Projects Delivered</span>
+            <span class="factory-stat-value">10,000+</span>
+          </div>
+          <div class="factory-stat-row">
+            <span class="factory-stat-label">Total Roofing Supplied</span>
+            <span class="factory-stat-value">1 Cr+ Sq Ft</span>
+          </div>
+          <div class="factory-stat-row">
+            <span class="factory-stat-label">In Business Since</span>
+            <span class="factory-stat-value">1990 (35 Years)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section section--dark" id="process">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">How It Works</div>
+      <h2 class="section-title">Simple Quotation Process</h2>
+      <p class="section-sub">From inquiry to dispatch — a clear, straightforward workflow designed for fast project execution.</p>
+    </div>
+    <div class="process-steps reveal">
+      <div class="process-step">
+        <div class="process-num">01</div>
+        <div class="process-icon">📋</div>
+        <div class="process-title">Send Requirement</div>
+        <div class="process-desc">Share your product, dimensions, quantity, and location via WhatsApp or our inquiry form.</div>
+      </div>
+      <div class="process-step">
+        <div class="process-num">02</div>
+        <div class="process-icon">📊</div>
+        <div class="process-title">Receive Custom Quotation</div>
+        <div class="process-desc">Our team will prepare a detailed, project-specific quotation with pricing and lead time.</div>
+      </div>
+      <div class="process-step">
+        <div class="process-num">03</div>
+        <div class="process-icon">✅</div>
+        <div class="process-title">Order Confirmation</div>
+        <div class="process-desc">Confirm your order with advance payment. Production is scheduled immediately after confirmation.</div>
+      </div>
+      <div class="process-step">
+        <div class="process-num">04</div>
+        <div class="process-icon">🚚</div>
+        <div class="process-title">Production & Dispatch</div>
+        <div class="process-desc">Products are manufactured to specification and dispatched with quality documentation.</div>
+      </div>
+    </div>
+    <div style="margin-top:40px;display:flex;gap:12px;flex-wrap:wrap;" class="reveal">
+      <a href="https://wa.me/919712912388" target="_blank" class="btn btn-wa">Start on WhatsApp →</a>
+      <a href="#inquiry" class="btn btn-outline-white">Use Inquiry Form</a>
+    </div>
+  </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section class="section section--alt" id="industries">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">Industries Served</div>
+      <h2 class="section-title">Built for Every Scale of Project</h2>
+      <p class="section-sub">Our products are used across a wide range of construction categories throughout India.</p>
+    </div>
+    <div class="industries-grid reveal">
+      <div class="industry-card">
+        <div class="industry-icon">🏭</div>
+        <div>
+          <div class="industry-name">Factories & Industries</div>
+          <div class="industry-desc">Industrial sheds, manufacturing plants, processing units requiring heavy-duty roofing systems.</div>
+        </div>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon">📦</div>
+        <div>
+          <div class="industry-name">Warehouses & Logistics</div>
+          <div class="industry-desc">Large-span warehouse roofing with insulation, ventilation, and drainage systems.</div>
+        </div>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon">🏢</div>
+        <div>
+          <div class="industry-name">Commercial Buildings</div>
+          <div class="industry-desc">Office complexes, shopping centers, and commercial structures requiring aesthetic and functional roofing.</div>
+        </div>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon">🌾</div>
+        <div>
+          <div class="industry-name">Farm Structures</div>
+          <div class="industry-desc">Agricultural sheds, poultry farms, and storage structures with cost-effective roofing solutions.</div>
+        </div>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon">🏠</div>
+        <div>
+          <div class="industry-name">Residential Roofing</div>
+          <div class="industry-desc">Durable roofing for homes and housing projects with premium color-coated sheet options.</div>
+        </div>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon">⚙️</div>
+        <div>
+          <div class="industry-name">Industrial Projects</div>
+          <div class="industry-desc">Steel plants, chemical facilities, and engineering parks with specialized roofing requirements.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INQUIRY -->
+<section class="section" id="inquiry">
+  <div class="container">
+    <div class="inquiry-wrap">
+      <div class="inquiry-text reveal">
+        <div class="section-label">Get a Quote</div>
+        <h2 class="section-title" style="margin-bottom:16px;">Get Your Custom<br>Quotation Today</h2>
+        <p class="section-sub" style="margin-bottom:24px;">Fill in your requirement and our team will contact you with a detailed, project-specific quotation within a few hours.</p>
+        <ul class="inquiry-points">
+          <li>No obligation quotation</li>
+          <li>Custom sizing available</li>
+          <li>Pan-India delivery</li>
+          <li>Direct response from manufacturing team</li>
+          <li>WhatsApp follow-up available</li>
+        </ul>
+        <div style="margin-top:32px;padding:20px;background:var(--bg);border:1px solid var(--border);border-radius:4px;">
+          <div style="font-size:12px;color:var(--gray-500);text-transform:uppercase;letter-spacing:0.08em;font-weight:600;margin-bottom:10px;">Or Contact Us Directly</div>
+          <div style="font-size:14px;color:var(--dark);display:flex;flex-direction:column;gap:8px;">
+            <span>📞 <a href="tel:+919712912388" style="color:var(--red);font-weight:600;">+91 9712912388</a></span>
+            <span>📧 <a href="mailto:bhagyodaysteel@rediffmail.com" style="color:var(--red);font-weight:600;">bhagyodaysteel@rediffmail.com</a></span>
+            <span>📍 Jeel Compound, Plot No. 146/2, 2nd Phase, G.I.D.C, Vapi, Gujarat – 396195</span>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="inquiry-form">
+          <div class="form-title">Request a Quotation</div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Full Name *</label>
+              <input type="text" class="form-input" placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Mobile Number *</label>
+              <input type="tel" class="form-input" placeholder="+91 XXXXX XXXXX">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Product Requirement *</label>
+            <select class="form-select">
+              <option value="">Select product category</option>
+              <option>Color Coated Roofing Sheets</option>
+              <option>LESSO UPVC Sheets</option>
+              <option>Polycarbonate Sheets</option>
+              <option>PUF Insulated Panels</option>
+              <option>Aluminium Roof Ventilators</option>
+              <option>UPVC Gutter Systems</option>
+              <option>Deck Sheets</option>
+              <option>Self Drilling Screws</option>
+              <option>Multiple Products</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">City / Location *</label>
+            <input type="text" class="form-input" placeholder="Your city or project location">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Additional Details</label>
+            <textarea class="form-textarea" placeholder="Dimensions, quantity, project type, or any specific requirements..."></textarea>
+          </div>
+          <a href="https://wa.me/919712912388" target="_blank" class="btn btn-wa form-submit" id="submitBtn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Get Quotation on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHATSAPP CTA -->
+<section class="wa-section">
+  <div class="container">
+    <div class="wa-badge">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp Inquiries Welcome
+    </div>
+    <h2>Need a Fast Roofing Quotation?</h2>
+    <p>Send your project requirement directly on WhatsApp and receive a customized quotation from our manufacturing team.</p>
+    <a href="https://wa.me/919712912388?text=Hello%2C%20I%20need%20a%20quotation%20for%20roofing%20materials." target="_blank" class="wa-btn">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp Now
+    </a>
+    <div class="wa-note">Typically responds within business hours · Mon–Sat, 9:00 AM – 7:00 PM</div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">Bhagyoday <span>Roof</span> Industries</div>
+        <div class="footer-tagline">Industrial Roofing Manufacturer</div>
+        <div class="footer-brand-desc">Manufacturer and supplier of industrial roofing materials since 1990. Serving commercial, industrial, and residential projects across India.</div>
+        <span class="footer-since">Est. 1990 — 35 Years of Excellence</span>
+      </div>
+      <div>
+        <div class="footer-col-title">Products</div>
+        <ul class="footer-links">
+          <li><a href="#products">Color Coated Sheets</a></li>
+          <li><a href="#products">LESSO UPVC Sheets</a></li>
+          <li><a href="#products">Polycarbonate Sheets</a></li>
+          <li><a href="#products">PUF Panels</a></li>
+          <li><a href="#products">Roof Ventilators</a></li>
+          <li><a href="#products">UPVC Gutters</a></li>
+          <li><a href="#products">Deck Sheets</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Company</div>
+        <ul class="footer-links">
+          <li><a href="#factory">Manufacturing</a></li>
+          <li><a href="#industries">Industries Served</a></li>
+          <li><a href="#inquiry">Get Quotation</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Contact</div>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon">📍</span>
+          <span>Jeel Compound, Plot No. 146/2, 2nd Phase,<br>Gunjan-Silvassa Road, G.I.D.C,<br>Vapi, Gujarat – 396195, India</span>
+        </div>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon">📞</span>
+          <a href="tel:+919712912388" style="color:rgba(255,255,255,0.55);"> +91 9712912388</a>
+        </div>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon">📧</span>
+          <a href="mailto:bhagyodaysteel@rediffmail.com" style="color:rgba(255,255,255,0.55);">bhagyodaysteel@rediffmail.com</a>
+        </div>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon">🕐</span>
+          <span>Mon–Sat: 9:00 AM – 7:00 PM</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-text">© 2025 Bhagyoday Roof Industries. All rights reserved.</div>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/919712912388?text=Hello%2C%20I%20need%20a%20quotation%20for%20roofing%20materials." target="_blank" class="wa-float" title="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script>
+  // Mobile menu toggle
+  const toggle = document.getElementById('mobToggle');
+  const menu = document.getElementById('mobMenu');
+  toggle.addEventListener('click', () => menu.classList.toggle('open'));
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.classList.remove('open')));
+
+  // Scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), 60);
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.08 });
+  reveals.forEach(el => observer.observe(el));
+
+  // WhatsApp product inquiry
+  function openWhatsApp(product) {
+    const msg = encodeURIComponent(`Hello, I need a quotation for: ${product}. Please share pricing and availability.`);
+    window.open(`https://wa.me/ 919712912388 ?text=${msg}`, '_blank');
+  }
+
+  // Form submit → WhatsApp
+  document.getElementById('submitBtn').addEventListener('click', function(e) {
+    const name = document.querySelector('input[placeholder="Your name"]').value;
+    const phone = document.querySelector('input[type="tel"]').value;
+    const product = document.querySelector('select').value;
+    const city = document.querySelector('input[placeholder="Your city or project location"]').value;
+    const details = document.querySelector('textarea').value;
+
+    if (!name || !phone) { e.preventDefault(); alert('Please fill Name and Mobile Number.'); return; }
+    const msg = encodeURIComponent(
+      `*New Quotation Request*/n/nName: ${name}/nMobile: ${phone}/nProduct: ${product || 'Not specified'}/nCity: ${city || 'Not specified'}/nDetails: ${details || 'None'}`
+    );
+    this.href = `https://wa.me/919712912388?text=${msg}`;
+  });
+</script>
+</body>
+</html>
